@@ -47,7 +47,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-query = {  "text": "Adventure awaits 🌍✈️ Who's ready to embark on a journey of a lifetime? Whether you're exploring exotic landscapes, immersing yourself in vibrant cultures, or simply indulging in delicious cuisines, there's something magical about travel that fills the soul with joy and wonder. Let's wander together and create unforgettable memories! 🌟",  "count": 5}
+query = {  "text": "Adventure awaits 🌍✈️ Who's ready to embark on a journey of a lifetime? Whether you're exploring exotic landscapes, immersing yourself in vibrant cultures, or simply indulging in delicious cuisines, there's something magical about travel that fills the soul with joy and wonder. Let's wander together and create unforgettable memories! 🌟",  "count": 5 }
 ```
 
 ###### Simple Request
@@ -67,7 +67,6 @@ print(result)
   "status": "ok",
   "error": null,
   "data": {
-    "text": "Adventure awaits 🌍✈️ Who's ready to embark on a journey of a lifetime? Whether you're exploring exotic landscapes, immersing yourself in vibrant cultures, or simply indulging in delicious cuisines, there's something magical about travel that fills the soul with joy and wonder. Let's wander together and create unforgettable memories! 🌟",
     "count": 5,
     "hashtags": [
       "#adventure",
